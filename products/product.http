@@ -1,0 +1,16 @@
+### Variables 
+@apiurl = http://localhost:3000
+
+## POST - Create a new agenda
+POST {{apiurl}}/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Product 1",
+  "price": 12.50
+}
+###
+
+## GET - Get a result of an agenda
+GET {{apiurl}}/products HTTP/1.1
+###
